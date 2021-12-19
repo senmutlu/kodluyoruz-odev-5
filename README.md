@@ -1,0 +1,2 @@
+##
+Google sayfasını inceleyerek tasarlandı.
