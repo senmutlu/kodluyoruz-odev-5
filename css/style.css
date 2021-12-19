@@ -1,0 +1,165 @@
+  .header {
+    list-style-type:none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+  }
+  /*Sadece float ile blockları yan yana sıaladım ve text-align ile sağ tarafa doğru sıraladım*/
+  .headerli a {
+    display:block;
+    float: right;
+    color: black;
+    text-align:right;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  .search-area {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+  }
+
+  .search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+  }
+
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+
+  .input-enter {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+  }
+
+  .input-area {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+
+  .input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding-top: 33px;
+    padding-right: 10px;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+  }
+  .voice-part{
+   padding-right: 25px;
+   padding-top: 5px;
+  }
+  .voice-img{
+    height: 4px;
+    width: 4px;
+    vertical-align: middle;
+  }
+
+  .center-search{
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    list-style-type: none;
+  }
+
+  .footerli {
+    float: left;
+  }
+
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+
+  .footerli a:hover {
+    text-decoration: underline;
+  }
